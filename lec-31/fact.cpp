@@ -8,7 +8,6 @@ int factNum(int n){
         return 1;
     }
 
-
     ans =  n *ans ;
     factNum(n-1);
 
